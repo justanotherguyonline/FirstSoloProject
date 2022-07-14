@@ -1,0 +1,13 @@
+*
+
+.outerContainer{
+ background-color: rgb(96, 93, 93);
+ width: 600px;
+ height: 600px;
+ //display: flex;
+}
+
+.rowOfAnimalBoxes{
+  display: flex;
+  justify-content: space-evenly;
+}
