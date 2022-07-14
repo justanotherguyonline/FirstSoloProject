@@ -15,6 +15,12 @@ const SearchBars = () => {
           <button onClick={() => {console.log((document.querySelector('#userInputFood').value))}}> Search Food</button>
       </p>
    </div>
+   <div className ='suggestionBox'> 
+      <p>
+        <input type='text' id='suggestion'></input>
+          <button onClick={() => {console.log((document.querySelector('#suggestion').value))}}> Suggestions to Add </button>
+      </p>
+   </div>
 </div>
   )
 

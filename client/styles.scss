@@ -1,4 +1,6 @@
-*
+.root{
+  color: aqua;
+}
 
 .outerContainer{
  background-color: rgb(96, 93, 93);
@@ -10,4 +12,12 @@
 .rowOfAnimalBoxes{
   display: flex;
   justify-content: space-evenly;
+}
+
+// .plantBox{
+//   width: 60px;
+// }
+
+.modalBackground{
+  background-color: red;
 }
